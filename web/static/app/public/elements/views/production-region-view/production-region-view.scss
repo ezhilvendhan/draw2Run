@@ -1,0 +1,32 @@
+@import "px-defaults-design/_settings.defaults.scss";
+@import "px-colors-design/_settings.colors.scss";
+@import "px-flexbox-design/_base.flexbox.scss";
+@import "px-widths-responsive-design/_trumps.widths-responsive.scss";
+@import "px-helpers-design/_generic.helpers.scss";
+@import "px-typography-design/_base.typography.scss";
+@import "px-headings-design/_base.headings.scss";
+$inuit-enable-input--regular: true;
+$inuit-enable-validation-states: true;
+$inuit-enable-btn--call-to-action: true;
+$inuit-enable-btn--disabled: true;
+@import "px-buttons-design/_objects.buttons.scss";
+
+:host {
+  color: $gray11;
+}
+
+.card {
+  background-color: #ffffff !important;
+  min-height: 250px;
+  margin: 1em;
+  padding: 1em;
+
+  .card-content {
+    margin-top: 1em;
+  }
+}
+
+.heading {
+  font-size: 23px;
+  margin-left: 3%;
+}

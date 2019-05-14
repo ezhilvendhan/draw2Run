@@ -1,0 +1,68 @@
+<!-- import polymer -->
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<!-- import page level css -->
+<link rel="import" href="og-app-styles.html">
+
+<!-- app route -->
+<link rel="import" href="../../bower_components/app-route/app-location.html">
+<link rel="import" href="../../bower_components/app-route/app-route.html">
+<link rel="import" href="../../bower_components/px-app-helpers/px-app-route/px-app-route.html" />
+<!-- px components -->
+<link rel="import" href="../../bower_components/px-branding-bar/px-branding-bar.html" />
+<link rel="import" href="../../bower_components/px-app-helpers/px-app-header/px-app-header.html" />
+<link rel="import" href="../../bower_components/px-app-nav/px-app-nav.html">
+<link rel="import" href="../../bower_components/px-view/px-view.html">
+<link rel="import" href="../../bower_components/px-icon-set/px-icon-set.html">
+<!-- seed app components -->
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+
+<dom-module id="og-app">
+  <template>
+
+    <!-- apply imported seed app style module -->
+    <style include="og-app-styles"></style>
+    <!-- <px-app-header>
+      <div class="flex flex--row flex--right flex--bottom right-nav">
+        <div><px-icon icon="px-nav:search"></px-icon></div>
+        <div class="chat-icon"><px-icon icon="px-com:chat"></px-icon></div>
+        <div class="avatar"><img src="../../resources/avatar.png"></div>
+      </div>
+    </px-app-header>
+    <px-branding-bar slot="branding-bar" application-title="[[appHeader]]"></px-branding-bar>
+    <px-app-nav
+      slot="app-nav"
+      class="navbars"
+      items="[[navItems]]"
+      collapse-with-icon="true"
+      collapse-at="450"
+      selected-route='["dashboard"]'>
+    </px-app-nav> -->
+
+    <div class="viewport">
+      <div class="content-wrapper">
+
+        <main class="u-pt-- u-pr-- u-pl--" role="main" style="padding:0px !important">
+          <!-- app-location captures url and assigns _route value -->
+          <app-location id="carbonLocation" route="{{_route}}" use-hash-as-path>
+          </app-location>
+
+
+
+          <app-route route="[[_route]]" pattern="/dashboard-layout" update-nav-route use-hash-as-path active="{{layoutDashboardActive}}">
+          </app-route>
+          <px-view id="layoutDashboardPxView" active="[[layoutDashboardActive]]" element-href="/elements/views/dashboard-layout/dashboard-layout-view.html"
+            load-async="true">
+          </px-view>
+
+        </main>
+
+      </div>
+    </div>
+
+    <!-- <seed-footer footer-links='[[footerLinks]]'></seed-footer> -->
+    <iron-ajax id="configAjaxEl" url="/config" auto></iron-ajax>
+  </template>
+  <script src="og-app.es5.js">
+  </script>
+</dom-module>

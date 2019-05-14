@@ -1,0 +1,74 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../og-spine/og-spine.html">
+
+      <link rel="import" href="../../line-chart-view/line-chart-view.html">
+
+
+      <link rel="import" href="../../new-production-region-view/new-production-region-view.html">
+
+
+      <link rel="import" href="../../hbar-chart-view/hbar-chart-view.html">
+
+
+      <link rel="import" href="../production-region-view/production-region-view.html">
+
+
+<link rel="import" href="dashboard-layout-view-styles.html">
+
+<dom-module id="dashboard-layout-view">
+    <template>
+        <style include="dashboard-layout-view-styles"></style>
+        <!-- Header -->
+
+        <div class="container">
+          <div class="header-view">
+            <og-spine id="ogSpine" is-finished="[[finished]]" dashboard-name="[[dashboardName]]"></og-spine>
+          </div>
+            <!-- Row - 1 -->
+            <div class="flex flex--wrap">
+                <div class="u-1/1 u-1/2-desk">
+                  <div class="card">
+
+                          <line-chart-view id="line0" elementid="line0"></line-chart-view>
+
+                  </div>
+                </div>
+                <div class="u-1/1 u-1/2-desk">
+                  <div class="card">
+
+                          <new-production-region-view id="square1" elementid="square1"></new-production-region-view>
+
+                  </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row - 2 -->
+            <div class="flex flex--wrap">
+                <div class="u-1/1 u-1/2-desk">
+                  <div class="card">
+
+                          <hbar-chart-view id="bar2" elementid="bar2"></hbar-chart-view>
+
+                  </div>
+                </div>
+                <div class="u-1/1 u-1/2-desk">
+                  <div class="card">
+
+                          <production-region-view id="bubble3" elementid="bubble3"></production-region-view>
+
+                  </div>
+                </div>
+
+
+            </div>
+
+            <!-- Row - 3 -->
+            <div class="flex flex--wrap">
+                <!-- <button on-tap="_openReportsModal">Test</button> -->
+            </div>
+        </div>
+
+    </template>
+    <script src="dashboard-layout-view.es5.js"></script>
+</dom-module>

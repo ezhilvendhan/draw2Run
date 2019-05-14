@@ -1,0 +1,11 @@
+---
+applications:
+- name: bhge-layout-recognizer
+  disk_quota: 2G
+  memory: 1G
+  instances: 1
+  path: .
+  buildpack: python_buildpack
+  command: python main.py
+  # services:
+  #  - myredis

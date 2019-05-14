@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="685px" height="819px" viewBox="0 0 685 819" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>PTR</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 811 677 811 677 0 0 0"></polygon>
+        <filter x="-1.0%" y="-0.6%" width="102.1%" height="101.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="1" y="1" width="601" height="42"></rect>
+    </defs>
+    <g id="MOP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1a.-MOP-Dashboard" transform="translate(-321.000000, -269.000000)">
+            <g id="PTR" transform="translate(325.000000, 271.000000)">
+                <g id="Page-1-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#F7F9F9" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="Sonatrach,-Algeria-J" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="18" font-weight="normal" line-spacing="21" fill="#2C404C">
+                    <tspan x="486.804" y="72">Sonatrach, Algeria</tspan>
+                    <tspan x="545.25" y="93">June 2018</tspan>
+                </text>
+                <path d="M170.85782,742 L170.85782,743" id="Stroke-115" stroke="#CECECE"></path>
+                <polygon id="Fill-116" fill="#CECECE" points="170 743 171.71564 743 171.71564 742 170 742"></polygon>
+                <g id="Stacked-Group" transform="translate(119.000000, 32.000000)" fill="#2C404C" font-family="GEInspiraSans-Bold, GE Inspira Sans" font-size="24" font-weight="bold" line-spacing="28">
+                    <text id="✏️1st">
+                        <tspan x="0" y="22">Product Transfer Report</tspan>
+                    </text>
+                </g>
+                <image id="s" x="24" y="40" width="60" height="60" xlink:href="data:image/png;base64,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"></image>
+                <g id="Group-63" transform="translate(23.000000, 154.000000)">
+                    <g id="Rectangle-14">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#979797" stroke-width="1" x="1.5" y="1.5" width="600" height="41"></rect>
+                    </g>
+                    <text id="✏️1st-copy-7" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="95">Hassi Messaoud</tspan>
+                    </text>
+                    <text id="✏️1st-copy-25" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="155.584" y="60">Haoud El </tspan>
+                        <tspan x="168.226" y="74">Hamra</tspan>
+                    </text>
+                    <text id="✏️1st-copy-39" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="194.508" y="521">From</tspan>
+                    </text>
+                    <text id="✏️1st-copy-40" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="396" y="521">To</tspan>
+                    </text>
+                    <text id="✏️1st-copy-32" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" line-spacing="23" fill="#737373">
+                        <tspan x="178.208" y="88">4125</tspan>
+                        <tspan x="178.208" y="111">2540</tspan>
+                        <tspan x="185.656" y="134">350</tspan>
+                        <tspan x="178.208" y="157">1200</tspan>
+                        <tspan x="185.656" y="180">560</tspan>
+                        <tspan x="185.656" y="203">700</tspan>
+                        <tspan x="208" y="226"></tspan>
+                        <tspan x="208" y="249"></tspan>
+                        <tspan x="208" y="272"></tspan>
+                        <tspan x="208" y="295"></tspan>
+                        <tspan x="208" y="318"></tspan>
+                        <tspan x="178.208" y="341">1270</tspan>
+                        <tspan x="178.208" y="364">2350</tspan>
+                        <tspan x="208" y="387"></tspan>
+                        <tspan x="178.208" y="410">1780</tspan>
+                    </text>
+                    <text id="✏️1st-copy-33" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" line-spacing="23" fill="#737373">
+                        <tspan x="274" y="88"></tspan>
+                        <tspan x="274" y="111"></tspan>
+                        <tspan x="274" y="134"></tspan>
+                        <tspan x="274" y="157"></tspan>
+                        <tspan x="274" y="180"></tspan>
+                        <tspan x="274" y="203"></tspan>
+                        <tspan x="244.208" y="226">2350</tspan>
+                        <tspan x="274" y="249"></tspan>
+                        <tspan x="244.208" y="272">3560</tspan>
+                        <tspan x="274" y="295"></tspan>
+                        <tspan x="274" y="318"></tspan>
+                        <tspan x="274" y="341"></tspan>
+                        <tspan x="274" y="364"></tspan>
+                        <tspan x="251.656" y="387">980</tspan>
+                    </text>
+                    <text id="✏️1st-copy-34" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" line-spacing="23" fill="#737373">
+                        <tspan x="338" y="88"></tspan>
+                        <tspan x="338" y="111"></tspan>
+                        <tspan x="338" y="134"></tspan>
+                        <tspan x="338" y="157"></tspan>
+                        <tspan x="338" y="180"></tspan>
+                        <tspan x="338" y="203"></tspan>
+                        <tspan x="338" y="226"></tspan>
+                        <tspan x="338" y="249"></tspan>
+                        <tspan x="338" y="272"></tspan>
+                        <tspan x="308.208" y="295">4659</tspan>
+                        <tspan x="308.208" y="318">1230</tspan>
+                        <tspan x="338" y="341"></tspan>
+                        <tspan x="338" y="364"></tspan>
+                        <tspan x="338" y="387"></tspan>
+                        <tspan x="338" y="410"></tspan>
+                        <tspan x="338" y="433"></tspan>
+                        <tspan x="338" y="456"></tspan>
+                        <tspan x="308.208" y="479">1549</tspan>
+                    </text>
+                    <text id="✏️1st-copy-35" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" line-spacing="23" fill="#737373">
+                        <tspan x="404" y="88"></tspan>
+                        <tspan x="404" y="111"></tspan>
+                        <tspan x="404" y="134"></tspan>
+                        <tspan x="404" y="157"></tspan>
+                        <tspan x="404" y="180"></tspan>
+                        <tspan x="404" y="203"></tspan>
+                        <tspan x="404" y="226"></tspan>
+                        <tspan x="374.208" y="249">3120</tspan>
+                        <tspan x="404" y="272"></tspan>
+                        <tspan x="404" y="295"></tspan>
+                        <tspan x="404" y="318"></tspan>
+                        <tspan x="404" y="341"></tspan>
+                        <tspan x="404" y="364"></tspan>
+                        <tspan x="404" y="387"></tspan>
+                        <tspan x="404" y="410"></tspan>
+                        <tspan x="374.208" y="433">4550</tspan>
+                        <tspan x="374.208" y="456">2500</tspan>
+                    </text>
+                    <text id="✏️1st-copy-36" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" line-spacing="23" fill="#737373">
+                        <tspan x="465" y="88"></tspan>
+                        <tspan x="435.208" y="111">1500</tspan>
+                        <tspan x="465" y="134"></tspan>
+                        <tspan x="435.208" y="157">1200</tspan>
+                        <tspan x="465" y="180"></tspan>
+                        <tspan x="442.656" y="203">500</tspan>
+                        <tspan x="435.208" y="226">2350</tspan>
+                        <tspan x="435.208" y="249">2000</tspan>
+                        <tspan x="465" y="272"></tspan>
+                        <tspan x="435.208" y="295">3160</tspan>
+                        <tspan x="465" y="318"></tspan>
+                        <tspan x="465" y="341"></tspan>
+                        <tspan x="465" y="364"></tspan>
+                        <tspan x="442.656" y="387">980</tspan>
+                        <tspan x="435.208" y="410">1780</tspan>
+                        <tspan x="465" y="433"></tspan>
+                        <tspan x="465" y="456"></tspan>
+                        <tspan x="435.208" y="479">1549</tspan>
+                    </text>
+                    <text id="✏️1st-copy-37" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" line-spacing="23" fill="#737373">
+                        <tspan x="498.208" y="88">4125</tspan>
+                        <tspan x="498.208" y="111">1040</tspan>
+                        <tspan x="528" y="134"></tspan>
+                        <tspan x="528" y="157"></tspan>
+                        <tspan x="505.656" y="180">560</tspan>
+                        <tspan x="528" y="203"></tspan>
+                        <tspan x="528" y="226"></tspan>
+                        <tspan x="498.208" y="249">1120</tspan>
+                        <tspan x="528" y="272"></tspan>
+                        <tspan x="498.208" y="295">1150</tspan>
+                        <tspan x="528" y="318"></tspan>
+                        <tspan x="498.208" y="341">1270</tspan>
+                        <tspan x="498.208" y="364">2350</tspan>
+                        <tspan x="528" y="387"></tspan>
+                        <tspan x="528" y="410"></tspan>
+                        <tspan x="498.208" y="433">4550</tspan>
+                        <tspan x="498.208" y="456">2500</tspan>
+                    </text>
+                    <text id="✏️1st-copy-38" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" line-spacing="23" fill="#737373">
+                        <tspan x="598" y="88"></tspan>
+                        <tspan x="598" y="111"></tspan>
+                        <tspan x="575.656" y="134">300</tspan>
+                        <tspan x="598" y="157"></tspan>
+                        <tspan x="598" y="180"></tspan>
+                        <tspan x="598" y="203"></tspan>
+                        <tspan x="598" y="226"></tspan>
+                        <tspan x="598" y="249"></tspan>
+                        <tspan x="598" y="272"></tspan>
+                        <tspan x="598" y="295"></tspan>
+                        <tspan x="568.208" y="318">1230</tspan>
+                    </text>
+                    <text id="✏️1st-copy-26" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="241.87" y="60">Hassi </tspan>
+                        <tspan x="229.158" y="74">Berkine</tspan>
+                    </text>
+                    <text id="✏️1st-copy-27" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="305.87" y="60">Hassi </tspan>
+                        <tspan x="306.08" y="74">R’Mel</tspan>
+                    </text>
+                    <text id="✏️1st-copy-28" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="393.038" y="60">In </tspan>
+                        <tspan x="355.952" y="74">Amenas</tspan>
+                    </text>
+                    <text id="✏️1st-copy-29" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="426.556" y="67">Skikda</tspan>
+                    </text>
+                    <text id="✏️1st-copy-30" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="491.012" y="67">Arzew</tspan>
+                    </text>
+                    <text id="✏️1st-copy-31" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="557.918" y="67">Algiers</tspan>
+                    </text>
+                    <text id="✏️1st-copy-10" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="165">El Borma</tspan>
+                    </text>
+                    <text id="✏️1st-copy-13" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="234">El Merk</tspan>
+                    </text>
+                    <text id="✏️1st-copy-16" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="304">Hassi R’Mel</tspan>
+                    </text>
+                    <text id="✏️1st-copy-19" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="374">Rhourde El Hamra</tspan>
+                    </text>
+                    <text id="✏️1st-copy-22" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="444">Tin Fouye Tabankourt</tspan>
+                    </text>
+                    <text id="✏️1st-copy-8" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="118">Menzel Ledjmet</tspan>
+                    </text>
+                    <text id="✏️1st-copy-11" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="188">El Agreb</tspan>
+                    </text>
+                    <text id="✏️1st-copy-14" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="258">Ohanet</tspan>
+                    </text>
+                    <text id="✏️1st-copy-17" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="327">Gassi Touil</tspan>
+                    </text>
+                    <text id="✏️1st-copy-20" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="397">Hassi Chergui</tspan>
+                    </text>
+                    <text id="✏️1st-copy-23" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="467">Alrar</tspan>
+                    </text>
+                    <text id="✏️1st-copy-9" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="141">Bif Sf Fatima</tspan>
+                    </text>
+                    <text id="✏️1st-copy-12" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="211">El Gassi</tspan>
+                    </text>
+                    <text id="✏️1st-copy-15" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="281">Hassi Berkine</tspan>
+                    </text>
+                    <text id="✏️1st-copy-18" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="351">Toual</tspan>
+                    </text>
+                    <text id="✏️1st-copy-21" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="420">Nezia</tspan>
+                    </text>
+                    <text id="✏️1st-copy-24" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="14" font-weight="normal" fill="#2C404C">
+                        <tspan x="9" y="490">Reggane</tspan>
+                    </text>
+                    <text id="✏️1st-copy-5" font-family="GEInspiraSans-Bold, GE Inspira Sans" font-size="20" font-weight="bold" line-spacing="13" fill="#2C404C">
+                        <tspan x="160" y="33">Midstream </tspan>
+                        <tspan x="265.064" y="39.0600586" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="12" font-weight="normal">(from storage to pipeline)</tspan>
+                    </text>
+                    <text id="✏️1st-copy-6" font-family="GEInspiraSans-Bold, GE Inspira Sans" font-size="20" font-weight="bold" line-spacing="24" fill="#2C404C">
+                        <tspan x="419" y="26">Downstream</tspan>
+                    </text>
+                    <path d="M1.5,78.5 L601.5,78.5" id="Line-9" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,101.5 L601.5,101.5" id="Line-9-Copy-4" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,42.5 L601.5,42.5" id="Line-9-Copy-30" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,124.5 L601.5,124.5" id="Line-9-Copy-10" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,147.5 L601.5,147.5" id="Line-9-Copy-11" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,170.5 L601.5,170.5" id="Line-9-Copy-12" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,194.5 L601.5,194.5" id="Line-9-Copy-13" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,217.5 L601.5,217.5" id="Line-9-Copy-14" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,240.5 L601.5,240.5" id="Line-9-Copy-15" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,1.5 L601.5,1.5" id="Line-9-Copy-8" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,17.5127389 L1.5,494.502729" id="Line-9-Copy-9" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M149,4.49770169 L149,493.98999" id="Line-9-Copy-5" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M213.5,43.9899902 L213.5,493.98999" id="Line-9-Copy-25" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M277.5,43.9899902 L277.5,493.98999" id="Line-9-Copy-26" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M342.5,43.9899902 L342.5,493.98999" id="Line-9-Copy-27" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M407.5,1.49898475 L407.5,493.98999" id="Line-9-Copy-28" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M471.5,43.9899902 L471.5,493.98999" id="Line-9-Copy-6" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M536.5,43.9899902 L536.5,493.98999" id="Line-9-Copy-29" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M602,16.5127389 L602,493.502729" id="Line-9-Copy-7" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,263.5 L601.5,263.5" id="Line-9-Copy" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,286.5 L601.5,286.5" id="Line-9-Copy-16" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,309.5 L601.5,309.5" id="Line-9-Copy-17" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,332.5 L601.5,332.5" id="Line-9-Copy-18" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,355.5 L601.5,355.5" id="Line-9-Copy-19" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,378.5 L601.5,378.5" id="Line-9-Copy-20" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,402.5 L601.5,402.5" id="Line-9-Copy-2" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,425.5 L601.5,425.5" id="Line-9-Copy-21" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,448.5 L601.5,448.5" id="Line-9-Copy-22" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,471.5 L601.5,471.5" id="Line-9-Copy-23" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M1.5,494.5 L601.5,494.5" id="Line-9-Copy-24" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M236.442862,517.5 L376.482825,517.5" id="Line-10" stroke="#979797" stroke-width="4" fill="#979797" stroke-linecap="square"></path>
+                    <path id="Line-10-decoration-1" d="M376.482825,517.5 L365.682825,514.5 L365.682825,520.5 L376.482825,517.5 Z" stroke="#979797" stroke-width="4" fill="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="Button/Light" transform="translate(236.000000, 742.000000)">
+                    <g id="/1-Default">
+                        <g id="/a-Default/Default">
+                            <polygon id="Page-1" fill="#D8E0E5" fill-rule="evenodd" points="0 30 80.0006077 30 80.0006077 0 0 0"></polygon>
+                            <text id="✏️Label" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="15" font-weight="normal" fill="#425866">
+                                <tspan x="25.3125" y="20">Print</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="Button/Light" transform="translate(338.000000, 742.000000)">
+                    <g id="/4-CTA">
+                        <g id="/a-Default/CTA">
+                            <polygon id="Fill-1" fill="#007ACC" fill-rule="evenodd" points="0 30 80 30 80 0 0 0"></polygon>
+                            <text id="✏️Label" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="15" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="25.545" y="20">Save</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

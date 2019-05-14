@@ -1,0 +1,32 @@
+[
+  {
+    "x": 130,
+    "y": "Khalda (130 BBL/day)",
+    "unit": "BBL/day"
+  },
+  {
+    "x": 73,
+    "y": "Gupco (73 BBL/day)",
+    "unit": "BBL/day"
+  },
+  {
+    "x": 72,
+    "y": "Petrobel (72 BBL/day)",
+    "unit": "BBL/day"
+  },
+  {
+    "x": 59,
+    "y": "GPC (59 BBL/day)",
+    "unit": "BBL/day"
+  },
+  {
+    "x": 46,
+    "y": "Agiba (46 BBL/day)",
+    "unit": "BBL/day"
+  },
+  {
+    "x": 179,
+    "y": "Others (179 BBL/day)",
+    "unit": "BBL/day"
+  }
+]

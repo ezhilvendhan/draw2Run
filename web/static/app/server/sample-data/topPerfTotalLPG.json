@@ -1,0 +1,32 @@
+[
+  {
+    "x": 13.8,
+    "y": "Western Desert Complex (13.8 BBL/day)",
+    "unit": "BBL/day"
+  },
+  {
+    "x": 7.1,
+    "y": "Gupco (7.1 BBL/day)",
+    "unit": "BBL/day"
+  },
+  {
+    "x": 3.4,
+    "y": "Amereya Complex (3.4 BBL/day)",
+    "unit": "BBL/day"
+  },
+  {
+    "x": 3.4,
+    "y": "Petrobel (3.4 BBL/day)",
+    "unit": "BBL/day"
+  },
+  {
+    "x": 3.1,
+    "y": "Abu Kir (3.1 BBL/day)",
+    "unit": "BBL/day"
+  },
+  {
+    "x": 9.4,
+    "y": "Others (9.4 BBL/day)",
+    "unit": "BBL/day"
+  }
+]

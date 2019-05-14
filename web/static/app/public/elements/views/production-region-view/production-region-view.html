@@ -1,0 +1,27 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../../bower_components/px-dropdown/px-dropdown.html">
+
+<link rel="import" href="production-region-view-styles.html">
+
+<dom-module id="production-region-view">
+  <style>
+  </style>
+  <template>
+    <style include="production-region-view-styles"></style>
+    <div>
+      <span class="heading">PRODUCT DEMAND BY CITY
+      </span>
+      <div style="margin-top:4%;">
+        <div class="flex flex--row flex--right flex--top">
+          <px-dropdown id="dropdown" items='[[dropdownItems]]' sort-mode="key" button-style="default" disable-clear="disable-clear"
+            trigger-height="30" style="width: 180px;"></px-dropdown>
+        </div>
+        <div class="card-content">
+          <div id="plotlyBubbleTime"></div>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script src="production-region-view.es5.js">
+  </script>
+</dom-module>

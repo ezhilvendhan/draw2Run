@@ -1,0 +1,32 @@
+[
+  {
+    "x": 26,
+    "y": "Khalda (26 BBL/day)",
+    "unit": "BBL/day"
+  },
+  {
+    "x": 16,
+    "y": "Petrobel (16 BBL/day)",
+    "unit": "BBL/day"
+  },
+  {
+    "x": 11,
+    "y": "Pharoneya (11 BBL/day)",
+    "unit": "BBL/day"
+  },
+  {
+    "x": 9.8,
+    "y": "Bapetco (9.8 BBL/day)",
+    "unit": "BBL/day"
+  },
+  {
+    "x": 4.3,
+    "y": "Wastani (4.3 BBL/day)",
+    "unit": "BBL/day"
+  },
+  {
+    "x": 18.9,
+    "y": "Others (18.9 BBL/day)",
+    "unit": "BBL/day"
+  }
+]

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="container">
+      <fieldset>
+        <form action="/" method="post">
+          <input name="city" type="text" class="ghost-input" placeholder="Enter a City" required>
+          <input type="submit" class="ghost-button" value="Get Weather">
+        </form>
+        <% if(weather !== null){ %>
+          <p><%= weather %></p>
+        <% } %>
+
+        <% if(error !== null){ %>
+          <p><%= error %></p>
+        <% } %>
+      </fieldset>
+    </div>
+  </body>
+</html>
+
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../../bower_components/og-gis-map/og-gis-map.html">
+<link rel="import" href="../../../bower_components/app-layout/app-drawer/app-drawer.html">
+<link rel="import" href="../../../bower_components/px-icon-set/px-icon.html">
+<link rel="import" href="../../../bower_components/px-tooltip/px-tooltip.html">
+<link rel="import" href="../../og-spine/og-spine.html">
+<link rel="import" href="../../mop-map/mop-map.html">
+<link rel="import" href="../../flow-diagram/flow-diagram.html">
+<link rel="import" href="../../downstream-flow/downstream-flow.html">
+<link rel="import" href="../../notification-view/notification-view.html">
+<link rel="import" href="new-mop-tab-view/new-mop-tab-view.html">
+<link rel="import" href="apc-view/apc-view.html">
+
+<link rel="import" href="new-dashboard-view-styles.html">
+<%if (import1.length > 0) { %>
+      <%- import1 %>
+<% } %>
+
+<dom-module id="new-dashboard-view">
+  <template>
+    <style include="new-dashboard-view-styles"></style>
+    <div class="dashboard-container">
+      <div class="header-view">
+        <og-spine id="ogSpine" is-finished="[[finished]]" dashboard-name="[[dashboardName]]"></og-spine>
+      </div>
+
+      <div class="tab-view">
+        <div class="note" hidden$="{{hideNotification}}" on-tap="_onCreateNewCase">
+          <div class="left" id="<%= error %>">
+            <div>New scenario has been approved for production optimisation</div>
+            <div class="link">Create new case</div>
+          </div>
+          <div class="right">
+            <px-icon icon="px-utl:chevron-right" class="icon"></px-icon>
+          </div>
+        </div>
+        <new-mop-tab-view id="mopTabView" on-show-apc-btn-click="loadAPCView"></new-mop-tab-view>
+        <apc-view id="apcView" on-back-btn-click="loadMOPView" hidden></apc-view>
+      </div>
+    </div>
+    <app-drawer id="drawer" swipe-open align="right" on-opened-changed="_makeHTMLScrollable">
+      <div on-tap="_closeDrawer" class="close-btn">
+        <px-icon icon="px-utl:close"></px-icon>
+      </div>
+      <notification-view></notification-view>
+      <%- pietag %>
+    </app-drawer>
+  </template>
+  <script src="new-dashboard-view.es5.js">
+  </script>
+</dom-module>

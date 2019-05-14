@@ -1,0 +1,270 @@
+@import "px-defaults-design/_settings.defaults.scss";
+@import "px-colors-design/_settings.colors.scss";
+@import "px-flexbox-design/_base.flexbox.scss";
+@import "px-widths-responsive-design/_trumps.widths-responsive.scss";
+@import "px-helpers-design/_generic.helpers.scss";
+@import "px-typography-design/_base.typography.scss";
+@import "px-headings-design/_base.headings.scss";
+$inuit-enable-input--regular: true;
+$inuit-enable-validation-states: true;
+$inuit-enable-btn--call-to-action: true;
+$inuit-enable-btn--disabled: true;
+$inuit-enable-btn--large: true;
+@import "px-buttons-design/_objects.buttons.scss";
+
+:host {
+  color: $gray11;
+  // Dropdown
+  --px-dropdown-bg-color: $white;
+  --px-dropdown-bg-color--hover: $gray1;
+  --px-dropdown-bg-color--selected: $select-default;
+  --px-dropdown-text-color--disabled: $gray4;
+  --px-dropdown-text-color--selected: $white;
+  --px-dropdown-border-color: $gray3;
+  --px-dropdown-text-color: $gray15;
+  // Button Group
+  --px-btn-group-text-color: $white;
+  --px-btn-group-background-color: $select-default;
+  --px-btn-group-background-color--hover: $gray6;
+  --px-btn-group-background-color--pressed: $gray8;
+  --px-btn-group-border-color: transparent;
+  --px-btn-group-border-color--hover: transparent;
+  --px-btn-group-border-color--pressed: transparent;
+
+  // Buttons
+  --px-btn-color: $gray15;
+  --px-btn-background: $gray3;
+  --px-btn-background--hover: $gray6;
+  --px-btn-background--pressed: $gray8;
+  --px-btn-border-color: transparent;
+  --px-btn-border-color--hover: transparent;
+  --px-btn-border-color--pressed: transparent;
+  --px-btn-shadow: none;
+  --px-btn-shadow--light: none;
+  --px-btn-primary-color: $white;
+  --px-btn-primary-background: $gray14;
+  --px-btn-primary-background--hover: $gray16;
+  --px-btn-primary-background--pressed: $gray18;
+  --px-btn-primary-border-color: transparent;
+  --px-btn-tertiary-color: $primary-default;
+  --px-btn-tertiary-color--hover: $primary-hover;
+  --px-btn-tertiary-color--pressed: $primary-pressed;
+  --px-btn-tertiary-background: transparent;
+  --px-btn-tertiary-background--hover: $gray4;
+  --px-btn-tertiary-background--pressed: $gray7;
+  --px-btn-tertiary-border-color: $gray8;
+  --px-btn-disabled-color: rgba($gray8, 0.5);
+  --px-btn-disabled-background: transparent;
+  --px-btn-disabled-border-color: rgba($gray8, 0.4);
+  --px-btn-call-to-action-color: $white;
+  --px-btn-call-to-action-background: $primary-default;
+  --px-btn-call-to-action-background--hover: $primary-hover;
+  --px-btn-call-to-action-background--pressed: $primary-pressed;
+  --px-btn-call-to-action-disabled-color: $white;
+  --px-btn-call-to-action-disabled-background: $cyan5;
+  --px-btn-icon-border: 0px solid;
+  --px-btn-icon-background: transparent;
+  --px-btn-bare-color: $gray15;
+  --px-btn-bare-color--hover: $primary-default;
+  --px-btn-bare-color--pressed: $primary-pressed;
+  --px-btn-primary-bare-color--visited: $primary-default;
+  --px-btn-primary-bare-color--hover: $primary-hover;
+  --px-btn-primary-bare-color--pressed: $primary-pressed;
+  --px-vis-register-series-name: #324450;
+
+  --px-modal-background-color: white;
+}
+
+.map-view {
+  //height:400px;
+  width: 100%;
+  // background-color: white;
+}
+
+.container {
+  // background-color: #ffffff !important;
+  margin: 0.4em;
+}
+
+.card {
+  background-color: #ffffff !important;
+  min-height: 600px;
+  margin: 0.4em;
+  padding: 1em;
+
+  .card-content {
+    margin-top: 1em;
+  }
+}
+.card-row-1 {
+  .row-1-content {
+    padding: 1em;
+  }
+  background-color: #ffffff !important;
+  min-height: 500px;
+  padding: 0px;
+  margin: 0.4em;
+}
+
+.heading {
+  padding-left: 0.5em;
+  font-size: 23px;
+}
+
+.production-region {
+  margin-top: 3em !important;
+  margin-left: 2em;
+}
+
+.divider-line {
+  height: 1px;
+  margin: 1.5em 0;
+  background-color: #979797;
+  width: 100%;
+}
+
+.chart-cont {
+  width: 99%;
+  min-width: 300px;
+  min-height: 450px;
+}
+
+.map-tab-bar {
+  background-color: #5d717e;
+  .tab-item {
+    color: white;
+    font-size: 1.2em;
+    float: left;
+    margin: 0.5em 1em;
+    cursor: pointer;
+    .selected {
+      height: 1px;
+      width: 100%;
+      background: white;
+    }
+  }
+}
+
+.unit {
+  font-family: "Open Sans", verdana, arial, sans-serif;
+  font-size: 14px;
+  // color: rgb(68, 68, 68);
+  font-weight: normal;
+}
+
+.modal {
+  padding: 0 2% 2% 2%;
+}
+
+.modal-header {
+  padding: 3em 3em 0 3em;
+}
+.modal-body {
+  padding: 0 3em 2em 3em;
+}
+
+.pcm-modal-header {
+  padding: 2em 3em 1em 2.5em;
+}
+.pcm-modal-body {
+  padding: 0 3em 3em 2em;
+}
+.prod-modal-body {
+  padding: 0 3em 3em 2em;
+  height: auto;
+  width: 700px;
+}
+
+.main-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.small-heading {
+  font-size: 1rem;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.report-icon {
+  --iron-icon-width: 20px;
+  --iron-icon-height: 20px;
+  cursor: pointer;
+}
+
+.report {
+  padding: 10px 40px 0px 0px;
+}
+
+.report-close-icon {
+  --iron-icon-width: 16px;
+  --iron-icon-height: 16px;
+  cursor: pointer;
+}
+
+.header {
+  height: 3em;
+  background-color: #5d717e;
+  //cursor: pointer;
+
+  .drop-down {
+    margin: 0.4em;
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+    px-dropdown {
+      width: 150px;
+      margin: auto;
+    }
+  }
+  .report-link {
+    z-index: 1000;
+    margin: 0.4em 1.5em;
+    color: white;
+    position: relative;
+    float: left;
+    cursor: pointer;
+  }
+  .icon {
+    float: left;
+    --iron-icon-width: 23px;
+    --iron-icon-height: 23px;
+  }
+  .caption {
+    font-size: 0.9em;
+    float: bottom;
+    position: relative;
+  }
+
+  object {
+    margin-left: 30%;
+  }
+}
+
+.scenariomodal {
+  padding-bottom: 1%;
+}
+
+.marginalised {
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.action-buttons {
+  margin-top: 2.5%;
+  margin-right: 3.5%;
+}
+
+.scenarios-modal-body {
+  padding: 0 2em 1.5em 2em;
+  height: auto;
+  // width: 90%;
+}
+
+.closeButton {
+  margin-right: 10px;
+  margin-top: 10px;
+}

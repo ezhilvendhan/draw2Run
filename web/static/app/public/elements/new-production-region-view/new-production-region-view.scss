@@ -1,0 +1,90 @@
+@import "px-colors-design/_settings.colors.scss";
+@import "px-defaults-design/_settings.defaults.scss";
+@import "px-mixins-design/_tools.mixins.scss";
+@import "px-flexbox-design/_base.flexbox.scss";
+@import "px-widths-responsive-design/_trumps.widths-responsive.scss";
+
+.bar-chart {
+  width: 100%;
+}
+.drop-down {
+  float: right;
+  padding: 1rem 2rem 2rem;
+}
+
+:host {
+  // Dropdown
+  --px-dropdown-bg-color: $white;
+  --px-dropdown-bg-color--hover: $gray1;
+  --px-dropdown-bg-color--selected: $select-default;
+  --px-dropdown-text-color--disabled: $gray4;
+  --px-dropdown-text-color--selected: $white;
+  --px-dropdown-border-color: $gray3;
+  --px-dropdown-text-color: $gray15;
+  // Button Group
+  --px-btn-group-text-color: $white;
+  --px-btn-group-background-color: $select-default;
+  --px-btn-group-background-color--hover: $gray6;
+  --px-btn-group-background-color--pressed: $gray8;
+  --px-btn-group-border-color: transparent;
+  --px-btn-group-border-color--hover: transparent;
+  --px-btn-group-border-color--pressed: transparent;
+
+  // Buttons
+  --px-btn-color: $gray15;
+  --px-btn-background: $gray3;
+  --px-btn-background--hover: $gray6;
+  --px-btn-background--pressed: $gray8;
+  --px-btn-border-color: transparent;
+  --px-btn-border-color--hover: transparent;
+  --px-btn-border-color--pressed: transparent;
+  --px-btn-shadow: none;
+  --px-btn-shadow--light: none;
+  --px-btn-primary-color: $white;
+  --px-btn-primary-background: $gray14;
+  --px-btn-primary-background--hover: $gray16;
+  --px-btn-primary-background--pressed: $gray18;
+  --px-btn-primary-border-color: transparent;
+  --px-btn-tertiary-color: $primary-default;
+  --px-btn-tertiary-color--hover: $primary-hover;
+  --px-btn-tertiary-color--pressed: $primary-pressed;
+  --px-btn-tertiary-background: transparent;
+  --px-btn-tertiary-background--hover: $gray4;
+  --px-btn-tertiary-background--pressed: $gray7;
+  --px-btn-tertiary-border-color: $gray8;
+  --px-btn-disabled-color: rgba($gray8, 0.5);
+  --px-btn-disabled-background: transparent;
+  --px-btn-disabled-border-color: rgba($gray8, 0.4);
+  --px-btn-call-to-action-color: $white;
+  --px-btn-call-to-action-background: $primary-default;
+  --px-btn-call-to-action-background--hover: $primary-hover;
+  --px-btn-call-to-action-background--pressed: $primary-pressed;
+  --px-btn-call-to-action-disabled-color: $white;
+  --px-btn-call-to-action-disabled-background: $cyan5;
+  --px-btn-icon-border: 0px solid;
+  --px-btn-icon-background: transparent;
+  --px-btn-bare-color: $gray15;
+  --px-btn-bare-color--hover: $primary-default;
+  --px-btn-bare-color--pressed: $primary-pressed;
+  --px-btn-primary-bare-color--visited: $primary-default;
+  --px-btn-primary-bare-color--hover: $primary-hover;
+  --px-btn-primary-bare-color--pressed: $primary-pressed;
+  --px-simple-horizontal-bar-chart-legend-text-color: #324450;
+  --px-simple-horizontal-bar-chart-label-text-color: #324450;
+}
+
+:root {
+  --px-vis-series-color-0: #e18d16;
+  --px-vis-series-color-1: #d0c700;
+  --px-vis-series-color-2: #79ba02;
+  --px-vis-series-color-3: #a474ed;
+  --px-vis-series-color-4: #5abdf6;
+  --px-vis-series-color-5: #da69bb;
+  --px-vis-series-color-6: #4d9789;
+}
+
+.chart-cont {
+  width: 99%;
+  min-width: 350px;
+  min-height: 400px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Layout Classifier</title>
+    <link href="/static/index.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="banner">
+      <img src="/static/banner.png">
+    </div>
+    <div class="container" role="main">
+      <div class="line-wrapper">
+      </div>
+      <form class="box" id="layoutForm" onsubmit="return validateForm()"
+        method="post" action="/predict" enctype="multipart/form-data">
+        <div class="layout-section upload">
+          <label for="layout">Upload Layout</label>
+          <div class="drop-zone">
+            <!-- <div class="drag-text">Drag files here <br> -or-</div> -->
+            <input id="layout" accept="image/*" onchange="previewLayout(this)" required
+              name="layout" class="file" type="file">
+            <button class="upload-button" onclick="uploadLayout(this)">Choose file</button>
+            <progress id="layoutProgressBar" max="100" value="0" style="display: none;"></progress>
+            <div id="layoutGallery" class="gallery"></div>
+          </div>
+        </div>
+
+        <div class="components-section upload">
+          <label for="components">Upload Components</label>
+          <div class="drop-zone">
+            <!-- <div class="drag-text">Drag files here <br> -or-</div> -->
+            <input class="file" type="file" onchange="previewComponents(this)" required
+              name="components" id="components" accept="image/*" multiple>
+            <button class="upload-button" onclick="uploadComponents(this)">Choose Files</button>
+            <progress id="componentsProgressBar" max="100" value="0" style="display: none;"></progress>
+            <div id="componentsGallery" class="gallery"></div>
+          </div>
+        </div>
+        <div class="button-container">
+          <button class="submit-button" type="submit">Generate</button>
+        </div>
+      </form>
+      <div class="footer"><a href="/static/demo_data.zip">Sample Test Data</a></div>
+    </div>
+    <script src="/static/index.js"></script>
+  </body>
+</html>

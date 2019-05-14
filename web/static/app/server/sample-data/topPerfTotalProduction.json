@@ -1,0 +1,32 @@
+[
+  {
+    "x": 427.7,
+    "y": "Petrobel (427.7 BOE/day)",
+    "unit": "BOE/day"
+  },
+  {
+    "x": 312.6,
+    "y": "Khalda (312.6 BOE/day)",
+    "unit": "BOE/day"
+  },
+  {
+    "x": 115.2,
+    "y": "Pharoneya (115.2 BOE/day)",
+    "unit": "BOE/day"
+  },
+  {
+    "x": 115.2,
+    "y": "Badr El Din (115.2 BOE/day)",
+    "unit": "BOE/day"
+  },
+  {
+    "x": 82.2,
+    "y": "Gupco (82.2 BOE/day)",
+    "unit": "BOE/day"
+  },
+  {
+    "x": 592.2,
+    "y": "Others (592.2 BOE/day)",
+    "unit": "BOE/day"
+  }
+]

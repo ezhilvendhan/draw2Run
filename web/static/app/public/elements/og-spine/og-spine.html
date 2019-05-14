@@ -1,0 +1,55 @@
+<!-- import polymer -->
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../notification-view/notification-view.html">
+
+<!-- import page level css -->
+<link rel="import" href="og-spine-styles.html">
+
+<dom-module id="og-spine">
+    <template>
+        <style include="og-spine-styles"></style>
+        <div class="component" style="background-color: rgb(12, 19, 24)">
+            <div id="main-div" class="main-area">
+                <div class="flex flex--wrap u-1/1 col-2">
+                    <div class="flex flex--row fourth  u-1/1-portable" style="padding-left: 0px">
+                        <div class="hamburger">
+                            <px-icon icon="px-nav:hamburger" class="custom-size"></px-icon>
+                        </div>
+                    </div>
+                    <div class="flex flex--row tenth  u-1/1-portable">
+                        <div class="logo">
+                            <img src="../../resources/BHGE-Logo.png">
+                        </div>
+                    </div>
+                    <div class="flex flex--row seven-tenth  u-1/1-portable" style="text-align: center; display: table;">
+                        <span class="header-text">Layout AI</span>
+                    </div>
+                    <div class="flex flex--row seventh  u-1/1-portable">
+                    </div>
+                    <div id="notification" class="user-profile">
+                        <div class="user-profile-container">
+                            <div class="user-profile-container--col3">
+                                <px-icon icon="px-nav:search" class="custom-icon"></px-icon>
+                            </div>
+                            <div class="user-profile-container--col3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21"
+                                    viewBox="0 0 20 21" style="cursor: pointer;" on-tap="_toggleCases">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path fill="#B0BABF" d="M7.13393767,19.3392873 C7.13393767,19.2639524 7.07534385,19.2053586 7.00000894,19.2053586 C6.33873583,19.2053586 5.79465036,18.6612731 5.79465036,18 C5.79465036,17.9246651 5.73605654,17.8660713 5.66072163,17.8660713 C5.58538672,17.8660713 5.5267929,17.9246651 5.5267929,18 C5.5267929,18.8119429 6.18806601,19.473216 7.00000894,19.473216 C7.07534385,19.473216 7.13393767,19.4146222 7.13393767,19.3392873 Z M13.964303,16.9285702 C13.964303,17.5145083 13.4788113,18 12.8928731,18 L9.14286864,18 C9.14286864,19.1802469 8.18025588,20.1428597 7.00000894,20.1428597 C5.819762,20.1428597 4.85714924,19.1802469 4.85714924,18 L1.10714477,18 C0.521206575,18 0.0357149243,17.5145083 0.0357149243,16.9285702 C1.27455569,15.8822519 2.71428955,14.0072497 2.71428955,9.96427613 C2.71428955,8.35713136 4.04520631,6.59931677 6.26340092,6.27286548 C6.22154819,6.17241894 6.19643655,6.06360184 6.19643655,5.9464142 C6.19643655,5.50277528 6.55637002,5.14284182 7.00000894,5.14284182 C7.44364786,5.14284182 7.80358133,5.50277528 7.80358133,5.9464142 C7.80358133,6.06360184 7.77846969,6.17241894 7.73661696,6.27286548 C9.95481157,6.59931677 11.2857283,8.35713136 11.2857283,9.96427613 C11.2857283,14.0072497 12.7254622,15.8822519 13.964303,16.9285702 Z"/>
+                                        <path fill="#911B19" d="M20,6 C20,9.31372337 17.3137234,12 14,12 C10.6862766,12 8,9.31372337 8,6 C8,2.68627663 10.6862766,0 14,0 C17.3137234,0 20,2.68627663 20,6"/>
+                                        <path fill="#FFF" d="M14.41,7.53 L11.54,7.53 C11.4199994,7.53 11.36,7.4700006 11.36,7.35 L11.36,6.95 C11.36,6.8433328 11.4033329,6.7300006 11.49,6.61 L14.24,2.54 C14.3133337,2.4333328 14.4099994,2.38 14.53,2.38 L15.01,2.38 C15.1300006,2.38 15.19,2.4399994 15.19,2.56 L15.19,6.87 L15.93,6.87 C16.0500006,6.87 16.11,6.9299994 16.11,7.05 L16.11,7.35 C16.11,7.4700006 16.0500006,7.53 15.93,7.53 L15.19,7.53 L15.19,8.82 C15.19,8.9400006 15.1300006,9 15.01,9 L14.59,9 C14.4699994,9 14.41,8.9400006 14.41,8.82 L14.41,7.53 Z M14.43,6.87 L14.43,3.42 L12.11,6.87 L14.43,6.87 Z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="user-profile-container--col3">
+                                <px-icon icon="px-nav:generic-user" class="custom-icon"></px-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <script src="og-spine.es5.js">
+    </script>
+</dom-module>

@@ -1,0 +1,7 @@
+name: bhge-layout-recognizer
+dependencies:
+- numpy
+- Pillow
+- keras
+- flask
+- requests

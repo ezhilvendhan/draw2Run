@@ -1,0 +1,330 @@
+@import "px-flexbox-design/_base.flexbox.scss";
+@import "px-widths-responsive-design/_trumps.widths-responsive.scss";
+
+@import "px-helpers-design/_generic.helpers.scss";
+@import "px-typography-design/_base.typography.scss";
+@import "px-headings-design/_base.headings.scss";
+
+$inuit-enable-btn--call-to-action: true;
+$inuit-enable-btn--disabled: true;
+@import "px-buttons-design/_objects.buttons.scss";
+
+$inuit-enable-layout--tiny: true;
+$inuit-enable-layout--middle: true;
+@import "px-layout-design/_objects.layout.scss";
+
+$default-text-color: #0c1419;
+
+:host {
+  --app-drawer-scrim-background: transparent;
+  //--px-tab-color--selected: "#2c404c";
+  width: 100%;
+
+  .case-icon {
+    color: #2c404c;
+  }
+
+  #tabs,
+  .tab-single {
+    display: inline-block;
+    color: $default-text-color;
+  }
+  .tab-single {
+    height: 3.125rem;
+    font-size: 1.25rem;
+    width: 100%;
+    & > * {
+      text-align: right;
+    }
+  }
+}
+
+ul {
+  padding: 0;
+  li {
+    list-style: none;
+    margin: auto;
+  }
+}
+
+#notification-view--minimal {
+  padding: 4.875rem 1.5625rem 12.5rem;
+  position: relative;
+  &:hover {
+    cursor: pointer;
+  }
+  & > p {
+    width: 3.125rem;
+    height: 1.25rem;
+    // font-family: GEInspiraSans;
+    font-size: 1.25rem;
+    text-align: left;
+    color: #2c404c;
+  }
+  li {
+    margin-bottom: 1.875rem;
+    label {
+      width: 12.875rem;
+      height: 2.125rem;
+      // font-family: GEInspiraSans;
+      font-size: 0.9375rem;
+      font-weight: bold;
+      text-align: left;
+      color: #2c404c;
+    }
+    .list-timestamp {
+      float: right;
+    }
+  }
+  .notification-view--minial--list--timestamps {
+    // font-family: GEInspiraSans;
+    font-size: 0.75rem;
+    text-align: right;
+    color: #677e8c;
+    width: 5.25rem;
+    position: absolute;
+    right: 1.5625rem;
+  }
+  .notification-view--minimal--list--img {
+    width: 1.875rem;
+    margin: 0.625rem 0;
+    & > * {
+      width: 100%;
+      min-width: 1.875rem;
+    }
+  }
+  .notification-view--minimal--list--text {
+    padding-left: 1.875rem;
+    margin-right: 5.25rem;
+    width: 100%;
+  }
+}
+
+#notification-view--maximal {
+  padding: 1.5625rem;
+  position: relative;
+  padding-bottom: 12.5rem;
+  a {
+    text-decoration: none;
+    color: #007acc;
+  }
+  label {
+    margin: 0;
+    color: #59717f;
+  }
+  .tab-buttons {
+    .px-tabs {
+      .px-tab-0 {
+        display: inline;
+      }
+    }
+  }
+
+  .link-buttons {
+    position: absolute;
+    text-align: right;
+    top: 0;
+    right: 3.125rem;
+    margin: 0;
+    li {
+      display: inline-block;
+      margin-right: 2rem;
+    }
+  }
+  .notification-view--maximal--header {
+    height: 6.25rem;
+  }
+  .notification-view--maximal--header--title {
+    position: relative;
+    .case-icon {
+      font-size: 1.5rem;
+      position: absolute;
+      top: 0.125rem;
+      left: 0.75rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #2c404c;
+      margin: 0 0 0.75rem;
+    }
+    & > div {
+      padding-left: 4.6875rem;
+    }
+    p {
+      color: #59717f;
+      margin-top: 0;
+    }
+  }
+  .notification-view--maximal--nav {
+    padding-left: 4.6875rem;
+    margin-bottom: 3.125rem;
+    position: relative;
+    .buttons {
+      position: absolute;
+      right: 3.75rem;
+      top: -0.375rem;
+      & > * {
+        margin-left: 3.125rem;
+      }
+    }
+    label {
+      margin: 0;
+      color: $default-text-color;
+    }
+    .timeline-nav {
+      & > * {
+        display: inline-block;
+        font-weight: bold;
+      }
+    }
+    #timeline-selector {
+      margin-left: 3.125rem;
+      & > * {
+        color: $default-text-color;
+      }
+    }
+  }
+  .notification-view--maximal--body--content {
+    position: relative;
+    display: table;
+    & > * {
+      display: table-cell;
+      vertical-align: top;
+    }
+    p {
+      line-height: 1.4375rem;
+      color: $default-text-color;
+      margin-top: 0;
+    }
+    .notification-view--maximal--body--content--nav {
+      border-right: solid 1px #979797;
+      text-align: right;
+      vertical-align: top;
+      & > * {
+        vertical-align: middle;
+      }
+    }
+    .notification-view--maximal--body--content--view {
+      width: 100%;
+    }
+    .notification-view--maximal--body--content--view--view {
+      padding-left: 3.75rem;
+    }
+    .tabs-subtabs {
+      vertical-align: middle;
+      .img-container {
+        width: 3.125rem;
+        vertical-align: middle;
+        margin-right: 1.875rem;
+        img {
+          width: 100%;
+        }
+      }
+      .tabs-subtab-1 {
+        margin-right: 18.75rem;
+        & > ul {
+          width: 100%;
+          &:nth-child(1) {
+            display: table;
+            li {
+              display: table-cell;
+            }
+          }
+          &:nth-last-child(1) {
+            p {
+              margin-bottom: 1.875rem;
+            }
+          }
+        }
+      }
+      .tabs-subtab-2 {
+        width: 18.75rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+        & > ul {
+          margin-left: 2rem;
+          padding-left: 1.875rem;
+          border-left: solid 1px #979797;
+          li {
+            min-height: 3.125rem;
+            margin-bottom: 1.25rem;
+            & > * {
+              display: inline-block;
+              vertical-align: middle;
+            }
+          }
+          p {
+            font-size: 1.25rem;
+            margin: 0;
+            font-weight: bold;
+            color: #2c404c;
+          }
+        }
+      }
+    }
+  }
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.border-head {
+  height: 2.5rem;
+  border-bottom: 1px solid #2c404c;
+  font-weight: normal;
+  th {
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    vertical-align: top;
+    font-weight: normal;
+  }
+}
+
+.border-body {
+  height: 2.5rem;
+  border-bottom: 1px solid #ddd;
+  td {
+    height: 2.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    &:first-child {
+      width: 200px;
+    }
+  }
+}
+
+.center-text {
+  text-align: center;
+}
+
+.height10 {
+  height: 18px !important;
+}
+
+.finish-wrap {
+  display: none;
+  &.finish {
+    display: block;
+  }
+}
+
+.grey-color {
+  background-color: #d8e0e5;
+  color: #425866;
+}
+
+.disabled {
+  color: #b6c3cc !important;
+  a {
+    color: #b6c3cc !important;
+    &:hover {
+      cursor: default;
+    }
+  }
+  &:hover {
+    cursor: default;
+  }
+}

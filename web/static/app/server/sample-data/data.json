@@ -1,0 +1,1349 @@
+{
+  "version": "1.1",
+  "country": "Egypt",
+  "location": {
+    "lat": 30.279871,
+    "lng": 30.451934,
+    "zoom": 7
+  },
+  "production": {
+    "oil": {
+      "unit": "BBL/D",
+      "data": [
+        {
+          "date": "01/12/2016",
+          "planned": 18511309,
+          "actual": 16746475
+        },
+        {
+          "date": "01/01/2017",
+          "planned": 18544324,
+          "actual": 16851934
+        },
+        {
+          "date": "01/02/2017",
+          "planned": 16802828,
+          "actual": 14978033
+        },
+        {
+          "date": "01/03/2017",
+          "planned": 18509852,
+          "actual": 16360526
+        },
+        {
+          "date": "01/04/2017",
+          "planned": 17337870,
+          "actual": 15865658
+        },
+        {
+          "date": "01/05/2017",
+          "planned": 17772269,
+          "actual": 16576448
+        },
+        {
+          "date": "01/06/2017",
+          "planned": 17080140,
+          "actual": 16186076
+        },
+        {
+          "date": "01/07/2017",
+          "planned": 18032173,
+          "actual": 16486217
+        },
+        {
+          "date": "01/08/2017",
+          "planned": 17993392,
+          "actual": 16679079
+        },
+        {
+          "date": "01/09/2017",
+          "planned": 17368140,
+          "actual": 16166599
+        },
+        {
+          "date": "01/10/2017",
+          "planned": 17995128,
+          "actual": 16791507
+        },
+        {
+          "date": "01/11/2017",
+          "planned": 17472660,
+          "actual": 16327707
+        },
+        {
+          "date": "01/12/2017",
+          "planned": 18034157,
+          "actual": 16697414
+        },
+        {
+          "date": "01/01/2018",
+          "planned": 18008799,
+          "actual": 16575004
+        },
+        {
+          "date": "01/02/2018",
+          "planned": 16347856,
+          "actual": 15114580
+        },
+        {
+          "date": "01/03/2018",
+          "planned": 18050835,
+          "actual": 16921895
+        },
+        {
+          "date": "01/04/2018",
+          "planned": 17375910,
+          "actual": 12000000
+        }
+      ]
+    },
+    "gas": {
+      "unit": "MMSCF/D",
+      "data": [
+        {
+          "date": "01/12/2016",
+          "planned": 128805,
+          "actual": 133183
+        },
+        {
+          "date": "01/01/2017",
+          "planned": 127658,
+          "actual": 135140
+        },
+        {
+          "date": "01/02/2017",
+          "planned": 113596,
+          "actual": 123395
+        },
+        {
+          "date": "01/03/2017",
+          "planned": 127534,
+          "actual": 137551
+        },
+        {
+          "date": "01/04/2017",
+          "planned": 121560,
+          "actual": 152826
+        },
+        {
+          "date": "01/05/2017",
+          "planned": 123566,
+          "actual": 161337
+        },
+        {
+          "date": "01/06/2017",
+          "planned": 118500,
+          "actual": 153864
+        },
+        {
+          "date": "01/07/2017",
+          "planned": 155186,
+          "actual": 157405
+        },
+        {
+          "date": "01/08/2017",
+          "planned": 153388,
+          "actual": 157183
+        },
+        {
+          "date": "01/09/2017",
+          "planned": 146940,
+          "actual": 150238
+        },
+        {
+          "date": "01/10/2017",
+          "planned": 155434,
+          "actual": 152454
+        },
+        {
+          "date": "01/11/2017",
+          "planned": 149670,
+          "actual": 145650
+        },
+        {
+          "date": "01/12/2017",
+          "planned": 155651,
+          "actual": 161745
+        },
+        {
+          "date": "01/01/2018",
+          "planned": 173538,
+          "actual": 168261
+        },
+        {
+          "date": "01/02/2018",
+          "planned": 155680,
+          "actual": 149613
+        },
+        {
+          "date": "01/03/2018",
+          "planned": 177227,
+          "actual": 160899
+        },
+        {
+          "date": "01/04/2018",
+          "planned": 173460,
+          "actual": null
+        }
+      ]
+    },
+    "lpg": {
+      "unit": "BBL/D",
+      "data": [
+        {
+          "date": "01/12/2016",
+          "planned": 1361768,
+          "actual": 1207200
+        },
+        {
+          "date": "01/01/2017",
+          "planned": 1369549,
+          "actual": 1266237
+        },
+        {
+          "date": "01/02/2017",
+          "planned": 1227772,
+          "actual": 1077596
+        },
+        {
+          "date": "01/03/2017",
+          "planned": 1255035,
+          "actual": 1127662
+        },
+        {
+          "date": "01/04/2017",
+          "planned": 1253460,
+          "actual": 1282956
+        },
+        {
+          "date": "01/05/2017",
+          "planned": 1107041,
+          "actual": 1307798
+        },
+        {
+          "date": "01/06/2017",
+          "planned": 1132950,
+          "actual": 1196192
+        },
+        {
+          "date": "01/07/2017",
+          "planned": 1271713,
+          "actual": 1201922
+        },
+        {
+          "date": "01/08/2017",
+          "planned": 1254632,
+          "actual": 1295175
+        },
+        {
+          "date": "01/09/2017",
+          "planned": 1217850,
+          "actual": 1213531
+        },
+        {
+          "date": "01/10/2017",
+          "planned": 1237365,
+          "actual": 1255015
+        },
+        {
+          "date": "01/11/2017",
+          "planned": 1193700,
+          "actual": 1179229
+        },
+        {
+          "date": "01/12/2017",
+          "planned": 1208628,
+          "actual": 1217143
+        },
+        {
+          "date": "01/01/2018",
+          "planned": 1233769,
+          "actual": 1224853
+        },
+        {
+          "date": "01/02/2018",
+          "planned": 1104852,
+          "actual": 1135263
+        },
+        {
+          "date": "01/03/2018",
+          "planned": 1152115,
+          "actual": 1229585
+        },
+        {
+          "date": "01/04/2018",
+          "planned": 1164810,
+          "actual": null
+        }
+      ]
+    },
+    "condensate": {
+      "unit": "BBL/D",
+      "data": [
+        {
+          "date": "01/12/2016",
+          "planned": 2306183,
+          "actual": 2507747
+        },
+        {
+          "date": "01/01/2017",
+          "planned": 2367842,
+          "actual": 2512040
+        },
+        {
+          "date": "01/02/2017",
+          "planned": 2075640,
+          "actual": 2266181
+        },
+        {
+          "date": "01/03/2017",
+          "planned": 2274067,
+          "actual": 2389603
+        },
+        {
+          "date": "01/04/2017",
+          "planned": 2190540,
+          "actual": 2517110
+        },
+        {
+          "date": "01/05/2017",
+          "planned": 2218453,
+          "actual": 2585909
+        },
+        {
+          "date": "01/06/2017",
+          "planned": 2127690,
+          "actual": 2518325
+        },
+        {
+          "date": "01/07/2017",
+          "planned": 2817125,
+          "actual": 2593517
+        },
+        {
+          "date": "01/08/2017",
+          "planned": 2773973,
+          "actual": 2610654
+        },
+        {
+          "date": "01/09/2017",
+          "planned": 2650470,
+          "actual": 2466334
+        },
+        {
+          "date": "01/10/2017",
+          "planned": 2705773,
+          "actual": 2512093
+        },
+        {
+          "date": "01/11/2017",
+          "planned": 2613690,
+          "actual": 2323477
+        },
+        {
+          "date": "01/12/2017",
+          "planned": 2733177,
+          "actual": 2664091
+        },
+        {
+          "date": "01/01/2018",
+          "planned": 2832470,
+          "actual": 2657397
+        },
+        {
+          "date": "01/02/2018",
+          "planned": 2574712,
+          "actual": 2418598
+        },
+        {
+          "date": "01/03/2018",
+          "planned": 2761046,
+          "actual": 2624621
+        },
+        {
+          "date": "01/04/2018",
+          "planned": 2682330,
+          "actual": null
+        }
+      ]
+    }
+  },
+  "topProducers": {
+    "total": {},
+    "oil": {},
+    "gas": {},
+    "condensate": {},
+    "lpg": {}
+  },
+  "regions": [
+    {
+      "name": "Gulf of Suez",
+      "location": {
+        "lat": 30,
+        "lng": 32
+      },
+      "totalProduction": {
+        "unit": "BOE/D",
+        "value": 162176
+      },
+      "companies": [
+        {
+          "name": "Amapetco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 18779
+          }
+        },
+        {
+          "name": "Osoco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 240
+          }
+        },
+        {
+          "name": "Gulf",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 0
+          }
+        },
+        {
+          "name": "Fanar",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 119
+          }
+        },
+        {
+          "name": "EGPC (Gazwarina)",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 0
+          }
+        },
+        {
+          "name": "Petrobel",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 25257
+          }
+        },
+        {
+          "name": "Petrogulf",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 4751
+          }
+        },
+        {
+          "name": "Petrozenima",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 1395
+          }
+        },
+        {
+          "name": "Petroshadwan",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 709
+          }
+        },
+        {
+          "name": "Gupco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 85484
+          }
+        },
+        {
+          "name": "South Ramadan",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 0
+          }
+        },
+        {
+          "name": "Gempetco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 4517
+          }
+        },
+        {
+          "name": "Ras Fanar",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 1350
+          }
+        },
+        {
+          "name": "Zeitco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 4204
+          }
+        },
+        {
+          "name": "Suco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 11101
+          }
+        },
+        {
+          "name": "North Ramadan",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 0
+          }
+        },
+        {
+          "name": "Agiba ",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 3992
+          }
+        },
+        {
+          "name": "Bahrain Complex",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 276
+          }
+        }
+      ]
+    },
+    {
+      "name": "Red Sea",
+      "location": {
+        "lat": 30,
+        "lng": 32
+      },
+      "totalProduction": {
+        "unit": "BOE/D",
+        "value": 0
+      },
+      "companies": []
+    },
+    {
+      "name": "Mediterranean",
+      "location": {
+        "lat": 30,
+        "lng": 32
+      },
+      "totalProduction": {
+        "unit": "BOE/D",
+        "value": 498460
+      },
+      "companies": [
+        {
+          "name": "Abu Kir",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 55371
+          }
+        },
+        {
+          "name": "Burullus",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 75149
+          }
+        },
+        {
+          "name": "Pharoneya",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 118057
+          }
+        },
+        {
+          "name": "United Gas",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 5698
+          }
+        },
+        {
+          "name": "Petrobel",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 147795
+          }
+        },
+        {
+          "name": "Rashpetco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 6112
+          }
+        },
+        {
+          "name": "Suco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 0
+          }
+        },
+        {
+          "name": "North Alex",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 84560
+          }
+        },
+        {
+          "name": "Nospeco ",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 5714
+          }
+        }
+      ]
+    },
+    {
+      "name": "Western Desert",
+      "location": {
+        "lat": 29,
+        "lng": 26,
+        "zoom": 8
+      },
+      "totalProduction": {
+        "unit": "BOE/D",
+        "value": 619153
+      },
+      "production": {
+        "oil": {
+          "unit": "BBL/D",
+          "data": [
+            {
+              "date": "01/12/2016",
+              "planned": "7404523.60",
+              "actual": "6698590.00"
+            },
+            {
+              "date": "01/01/2017",
+              "planned": "7417729.60",
+              "actual": "6740773.60"
+            },
+            {
+              "date": "01/02/2017",
+              "planned": "6721131.20",
+              "actual": "5991213.20"
+            },
+            {
+              "date": "01/03/2017",
+              "planned": "7403940.80",
+              "actual": "6544210.40"
+            },
+            {
+              "date": "01/04/2017",
+              "planned": "6935148.00",
+              "actual": "6346263.20"
+            },
+            {
+              "date": "01/05/2017",
+              "planned": "7108907.60",
+              "actual": "6630579.20"
+            },
+            {
+              "date": "01/06/2017",
+              "planned": "6832056.00",
+              "actual": "6474430.40"
+            },
+            {
+              "date": "01/07/2017",
+              "planned": "7212869.20",
+              "actual": "6594486.80"
+            },
+            {
+              "date": "01/08/2017",
+              "planned": "7197356.80",
+              "actual": "6671631.60"
+            },
+            {
+              "date": "01/09/2017",
+              "planned": "6947256.00",
+              "actual": "6466639.60"
+            },
+            {
+              "date": "01/10/2017",
+              "planned": "7198051.20",
+              "actual": "6716602.80"
+            },
+            {
+              "date": "01/11/2017",
+              "planned": "6989064.00",
+              "actual": "6531082.80"
+            },
+            {
+              "date": "01/12/2017",
+              "planned": "7213662.80",
+              "actual": "6678965.60"
+            },
+            {
+              "date": "01/01/2018",
+              "planned": "7203519.60",
+              "actual": "6630001.60"
+            },
+            {
+              "date": "01/02/2018",
+              "planned": "6539142.40",
+              "actual": "6045832.00"
+            },
+            {
+              "date": "01/03/2018",
+              "planned": "7220334.00",
+              "actual": "6768758.00"
+            },
+            {
+              "date": "01/04/2018",
+              "planned": "6950364.00",
+              "actual": "4800000.00"
+            }
+          ]
+        },
+        "gas": {
+          "unit": "MMSCF/D",
+          "data": [
+            {
+              "date": "01/12/2016",
+              "planned": "51522.00",
+              "actual": "53273.20"
+            },
+            {
+              "date": "01/01/2017",
+              "planned": "51063.20",
+              "actual": "54056.00"
+            },
+            {
+              "date": "01/02/2017",
+              "planned": "45438.40",
+              "actual": "49358.00"
+            },
+            {
+              "date": "01/03/2017",
+              "planned": "51013.60",
+              "actual": "55020.40"
+            },
+            {
+              "date": "01/04/2017",
+              "planned": "48624.00",
+              "actual": "61130.40"
+            },
+            {
+              "date": "01/05/2017",
+              "planned": "49426.40",
+              "actual": "64534.80"
+            },
+            {
+              "date": "01/06/2017",
+              "planned": "47400.00",
+              "actual": "61545.60"
+            },
+            {
+              "date": "01/07/2017",
+              "planned": "62074.40",
+              "actual": "62962.00"
+            },
+            {
+              "date": "01/08/2017",
+              "planned": "61355.20",
+              "actual": "62873.20"
+            },
+            {
+              "date": "01/09/2017",
+              "planned": "58776.00",
+              "actual": "60095.20"
+            },
+            {
+              "date": "01/10/2017",
+              "planned": "62173.60",
+              "actual": "60981.60"
+            },
+            {
+              "date": "01/11/2017",
+              "planned": "59868.00",
+              "actual": "58260.00"
+            },
+            {
+              "date": "01/12/2017",
+              "planned": "62260.40",
+              "actual": "64698.00"
+            },
+            {
+              "date": "01/01/2018",
+              "planned": "69415.20",
+              "actual": "67304.40"
+            },
+            {
+              "date": "01/02/2018",
+              "planned": "62272.00",
+              "actual": "59845.20"
+            },
+            {
+              "date": "01/03/2018",
+              "planned": "70890.80",
+              "actual": "64359.60"
+            },
+            {
+              "date": "01/04/2018",
+              "planned": "69384.00",
+              "actual": "0.00"
+            }
+          ]
+        },
+        "lpg": {
+          "unit": "BBL/D",
+          "data": [
+            {
+              "date": "01/12/2016",
+              "planned": "544707.20",
+              "actual": "482880.00"
+            },
+            {
+              "date": "01/01/2017",
+              "planned": "547819.60",
+              "actual": "506494.80"
+            },
+            {
+              "date": "01/02/2017",
+              "planned": "491108.80",
+              "actual": "431038.40"
+            },
+            {
+              "date": "01/03/2017",
+              "planned": "502014.00",
+              "actual": "451064.80"
+            },
+            {
+              "date": "01/04/2017",
+              "planned": "501384.00",
+              "actual": "513182.40"
+            },
+            {
+              "date": "01/05/2017",
+              "planned": "442816.40",
+              "actual": "523119.20"
+            },
+            {
+              "date": "01/06/2017",
+              "planned": "453180.00",
+              "actual": "478476.80"
+            },
+            {
+              "date": "01/07/2017",
+              "planned": "508685.20",
+              "actual": "480768.80"
+            },
+            {
+              "date": "01/08/2017",
+              "planned": "501852.80",
+              "actual": "518070.00"
+            },
+            {
+              "date": "01/09/2017",
+              "planned": "487140.00",
+              "actual": "485412.40"
+            },
+            {
+              "date": "01/10/2017",
+              "planned": "494946.00",
+              "actual": "502006.00"
+            },
+            {
+              "date": "01/11/2017",
+              "planned": "477480.00",
+              "actual": "471691.60"
+            },
+            {
+              "date": "01/12/2017",
+              "planned": "483451.20",
+              "actual": "486857.20"
+            },
+            {
+              "date": "01/01/2018",
+              "planned": "493507.60",
+              "actual": "489941.20"
+            },
+            {
+              "date": "01/02/2018",
+              "planned": "441940.80",
+              "actual": "454105.20"
+            },
+            {
+              "date": "01/03/2018",
+              "planned": "460846.00",
+              "actual": "491834.00"
+            },
+            {
+              "date": "01/04/2018",
+              "planned": "465924.00",
+              "actual": "0.00"
+            }
+          ]
+        },
+        "condensate": {
+          "unit": "BBL/D",
+          "data": [
+            {
+              "date": "01/12/2016",
+              "planned": "922473.20",
+              "actual": "1003098.80"
+            },
+            {
+              "date": "01/01/2017",
+              "planned": "947136.80",
+              "actual": "1004816.00"
+            },
+            {
+              "date": "01/02/2017",
+              "planned": "830256.00",
+              "actual": "906472.40"
+            },
+            {
+              "date": "01/03/2017",
+              "planned": "909626.80",
+              "actual": "955841.20"
+            },
+            {
+              "date": "01/04/2017",
+              "planned": "876216.00",
+              "actual": "1006844.00"
+            },
+            {
+              "date": "01/05/2017",
+              "planned": "887381.20",
+              "actual": "1034363.60"
+            },
+            {
+              "date": "01/06/2017",
+              "planned": "851076.00",
+              "actual": "1007330.00"
+            },
+            {
+              "date": "01/07/2017",
+              "planned": "1126850.00",
+              "actual": "1037406.80"
+            },
+            {
+              "date": "01/08/2017",
+              "planned": "1109589.20",
+              "actual": "1044261.60"
+            },
+            {
+              "date": "01/09/2017",
+              "planned": "1060188.00",
+              "actual": "986533.60"
+            },
+            {
+              "date": "01/10/2017",
+              "planned": "1082309.20",
+              "actual": "1004837.20"
+            },
+            {
+              "date": "01/11/2017",
+              "planned": "1045476.00",
+              "actual": "929390.80"
+            },
+            {
+              "date": "01/12/2017",
+              "planned": "1093270.80",
+              "actual": "1065636.40"
+            },
+            {
+              "date": "01/01/2018",
+              "planned": "1132988.00",
+              "actual": "1062958.80"
+            },
+            {
+              "date": "01/02/2018",
+              "planned": "1029884.80",
+              "actual": "967439.20"
+            },
+            {
+              "date": "01/03/2018",
+              "planned": "1104418.40",
+              "actual": "1049848.40"
+            },
+            {
+              "date": "01/04/2018",
+              "planned": "1072932.00",
+              "actual": "0.00"
+            }
+          ]
+        }
+      },
+      "companies": [
+        {
+          "name": "Al Hamra Oil",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 4477
+          }
+        },
+        {
+          "name": "GPC",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 22171
+          }
+        },
+        {
+          "name": "Alamein",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 1844
+          }
+        },
+        {
+          "name": "Wepco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 1850
+          }
+        },
+        {
+          "name": "PetroAmir",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 365
+          }
+        },
+        {
+          "name": "Petrosanan",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 7542
+          }
+        },
+        {
+          "name": "Petrosila",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 6682
+          }
+        },
+        {
+          "name": "Petroshahd",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 17090
+          }
+        },
+        {
+          "name": "Petrofayoum",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 36
+          }
+        },
+        {
+          "name": "Badr El Din ",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 116230
+          }
+        },
+        {
+          "name": "Badr 1",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 3376
+          }
+        },
+        {
+          "name": "Borapetco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 5119
+          }
+        },
+        {
+          "name": "South Dabaa",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 10079
+          }
+        },
+        {
+          "name": "Khalda",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 309520
+          }
+        },
+        {
+          "name": "Cepsa",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 0
+          }
+        },
+        {
+          "name": "Agiba",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 47721
+          }
+        },
+        {
+          "name": "Qarun",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 34765
+          }
+        },
+        {
+          "name": "Marina",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 127
+          }
+        },
+        {
+          "name": "Western Desert Complex",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 17233
+          }
+        },
+        {
+          "name": "Amereya Complex",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 4322
+          }
+        },
+        {
+          "name": "Norpetco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 8602
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upper Egypt",
+      "location": {
+        "lat": 26.820553,
+        "lng": 30.802498
+      },
+      "totalProduction": {
+        "unit": "BOE/D",
+        "value": 194
+      },
+      "companies": [
+        {
+          "name": "Baraka Field (Ganope)",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 194
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nile Delta",
+      "location": {
+        "lat": 31.20716599,
+        "lng": 30.5499489
+      },
+      "totalProduction": {
+        "unit": "BOE/D",
+        "value": 252361
+      },
+      "companies": [
+        {
+          "name": "Mansoura",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 4595
+          }
+        },
+        {
+          "name": "Wastani",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 36624
+          }
+        },
+        {
+          "name": "Petrobel",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 205526
+          }
+        },
+        {
+          "name": "Suco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 5614
+          }
+        }
+      ]
+    },
+    {
+      "name": "Eastern Desert",
+      "location": {
+        "lat": 28.130434,
+        "lng": 32.118404
+      },
+      "totalProduction": {
+        "unit": "BOE/D",
+        "value": 66811
+      },
+      "companies": [
+        {
+          "name": "Epidico",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 6149
+          }
+        },
+        {
+          "name": "Eshpetco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 4170
+          }
+        },
+        {
+          "name": "Gulf",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 0
+          }
+        },
+        {
+          "name": "GPC",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 40862
+          }
+        },
+        {
+          "name": "EGPC (Gazwarina)",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 0
+          }
+        },
+        {
+          "name": "PetroAmir",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 4013
+          }
+        },
+        {
+          "name": "Petrodara",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 6466
+          }
+        },
+        {
+          "name": "Petrozeit",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 565
+          }
+        },
+        {
+          "name": "Petromallaha",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 520
+          }
+        },
+        {
+          "name": "Zeitco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 3217
+          }
+        },
+        {
+          "name": "Magapetco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 704
+          }
+        },
+        {
+          "name": "Waspetco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 145
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sinai",
+      "location": {
+        "lat": 29.5,
+        "lng": 34
+      },
+      "totalProduction": {
+        "unit": "BOE/D",
+        "value": 51423
+      },
+      "companies": [
+        {
+          "name": "GPC",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 1678
+          }
+        },
+        {
+          "name": "Petrobel",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 48797
+          }
+        },
+        {
+          "name": "PetroSinai",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 85
+          }
+        },
+        {
+          "name": "Zeitco",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 863
+          }
+        },
+        {
+          "name": "Qarun",
+          "totalProduction": {
+            "unit": "BOE/D",
+            "value": 0
+          }
+        }
+      ]
+    }
+  ],
+  "downstream":{
+    "plants":[
+      {
+        "name":"APC",
+        "feedstock":[
+          {"name":"Western Desert","value":2546800, "unit":"BBL/Year"},
+          {"name":"Imported","value":1440000, "unit":"BBL/Year"},
+          {"name":"Condensates Western Desert","value":713200, "unit":"BBL/Year"},
+          {"name":"Abu Kir Condensates","value":100000, "unit":"BBL/Year"}          
+        ]
+      }
+    ]
+  }
+}

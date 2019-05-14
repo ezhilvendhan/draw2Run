@@ -1,0 +1,92 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../og-spine/og-spine.html">
+<%if (import1.length > 0) { %>
+      <%- import1 %>
+<% } %>
+<%if (import2.length > 0) { %>
+      <%- import2 %>
+<% } %>
+<%if (import3.length > 0) { %>
+      <%- import3 %>
+<% } %>
+<%if (import4.length > 0) { %>
+      <%- import4 %>
+<% } %>
+<%if (import5.length > 0) { %>
+      <%- import5 %>
+<% } %>
+<%if (import5.length > 0) { %>
+      <%- import6 %>
+<% } %>
+<link rel="import" href="dashboard-layout-view-styles.html">
+
+<dom-module id="dashboard-layout-view">
+    <template>
+        <style include="dashboard-layout-view-styles"></style>
+        <!-- Header -->
+
+        <div class="container">
+          <div class="header-view">
+            <og-spine id="ogSpine" is-finished="[[finished]]" dashboard-name="[[dashboardName]]"></og-spine>
+          </div>
+            <!-- Row - 1 -->
+            <div class="flex flex--wrap">
+                <div class="u-1/1 u-1/3-desk">
+                  <div class="card">
+                    <%if (element1.length > 0) { %>
+                          <%- element1 %>
+                    <% } %>
+                  </div>
+                </div>
+                <div class="u-1/1 u-1/3-desk">
+                  <div class="card">
+                    <%if (element2.length > 0) { %>
+                          <%- element2 %>
+                    <% } %>
+                  </div>
+                </div>
+                <div class="u-1/1 u-1/3-desk">
+                  <div class="card">
+                    <%if (element3.length > 0) { %>
+                          <%- element3 %>
+                    <% } %>
+                  </div>
+                </div>
+            </div>
+
+            <!-- Row - 2 -->
+            <div class="flex flex--wrap">
+                <div class="u-1/1 u-1/1-desk">
+                  <div class="card">
+                    <%if (element4.length > 0) { %>
+                          <%- element4 %>
+                    <% } %>
+                  </div>
+                </div>
+
+
+            </div>
+
+            <!-- Row - 3 -->
+            <div class="flex flex--wrap">
+              <div class="u-1/1 u-1/2-desk">
+                <div class="card">
+                  <%if (element5.length > 0) { %>
+                        <%- element5 %>
+                  <% } %>
+                </div>
+              </div>
+
+              <div class="u-1/1 u-1/2-desk">
+                <div class="card">
+                  <%if (element6.length > 0) { %>
+                        <%- element6 %>
+                  <% } %>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    </template>
+    <script src="dashboard-layout-view.es5.js"></script>
+</dom-module>

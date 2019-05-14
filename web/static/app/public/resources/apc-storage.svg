@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="122px" height="152px" viewBox="0 0 122 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Storage</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1,29 L121,29 C121.552285,29 122,29.4477153 122,30 L122,151 C122,151.552285 121.552285,152 121,152 L1,152 C0.44771525,152 6.76353751e-17,151.552285 0,151 L0,30 C-6.76353751e-17,29.4477153 0.44771525,29 1,29 Z M11,42 L11,141 L111,141 L111,100.3 L111,42 L11,42 Z M1,0 L121,0 C121.552285,-1.01453063e-16 122,0.44771525 122,1 L122,10 C122,10.5522847 121.552285,11 121,11 L1,11 C0.44771525,11 6.76353751e-17,10.5522847 0,10 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z" id="path-1"></path>
+    </defs>
+    <g id="MOP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4a.-MOP-APC,-Details" transform="translate(-1109.000000, -961.000000)">
+            <g id="Storage" transform="translate(1109.000000, 961.000000)">
+                <g id="Combined-Shape-Copy-8">
+                    <use fill="#679F00" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <path stroke="#65A100" stroke-width="3" d="M1.5,30.5 L1.5,150.5 L120.5,150.5 L120.5,30.5 L1.5,30.5 Z M9.5,142.5 L9.5,40.5 L112.5,40.5 L112.5,142.5 L9.5,142.5 Z M1.5,1.5 L1.5,9.5 L120.5,9.5 L120.5,1.5 L1.5,1.5 Z"></path>
+                </g>
+                <rect id="Rectangle-16" fill="#5ABEF6" x="12" y="70" width="98" height="70"></rect>
+                <text id="6,559-C3" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="12" font-weight="normal" fill="#2C404C">
+                    <tspan x="38.968" y="68">6,559 m</tspan><tspan font-size="10"  x="80" y="66">3</tspan>
+                </text>
+                <text id="8,000-C3" font-family="GEInspiraSans-Regular, GE Inspira Sans" font-size="12" font-weight="normal" fill="#2C404C">
+                    <tspan x="38.968" y="25">8,000 m</tspan><tspan font-size="10" x="80" y="23">3</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

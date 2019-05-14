@@ -1,0 +1,32 @@
+[
+  {
+    "x": 1876,
+    "y": "Petrobel (1876 MMSCF/day)",
+    "unit": "MMSCF/day"
+  },
+  {
+    "x": 804,
+    "y": "Khalda (804 MMSCF/day)",
+    "unit": "MMSCF/day"
+  },
+  {
+    "x": 590,
+    "y": "Pharoneya (590 MMSCF/day)",
+    "unit": "MMSCF/day"
+  },
+  {
+    "x": 482,
+    "y": "North Alex (482 MMSCF/day)",
+    "unit": "MMSCF/day"
+  },
+  {
+    "x": 428,
+    "y": "Bapetco (428 MMSCF/day)",
+    "unit": "MMSCF/day"
+  },
+  {
+    "x": 1125,
+    "y": "Others (1125 MMSCF/day)",
+    "unit": "MMSCF/day"
+  }
+]

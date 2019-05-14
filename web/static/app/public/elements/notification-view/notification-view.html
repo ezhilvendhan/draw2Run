@@ -1,0 +1,207 @@
+<!-- import polymer -->
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/px-tabs/px-tabs.html" />
+<link rel="import" href="../../bower_components/iron-pages/iron-pages.html" />
+
+<!-- import page level css -->
+<link rel="import" href="notification-view-styles.html">
+
+<dom-module id="notification-view">
+    <template>
+        <style include="notification-view-styles"></style>
+        <!-- FULL NOTIFICATION -->
+        <div id="notification-view--maximal" slot="full-notification">
+            <!-- Header -->
+            <div class="notification-view--maximal--header">
+                <div class="notification-view--maximal--header--title">
+                    <px-icon class="case-icon" icon="px-fea:cases"></px-icon>
+                    <div>
+                        <h3>
+                            Multiple Diesel Generator Failures
+                        </h3>
+                        <p>Salam Field</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- content -->
+            <div class="notification-view--maximal--body">
+                <div class="notification-view--maximal--body--content">
+
+                    <px-tabs id="tabs" class="notification-view--maximal--body--content--nav" selected="{{selected}}">
+                        <template is="dom-repeat" items="{{caseTabs}}">
+                            <px-tab class="tab-single">[[item]]</px-tab>
+                        </template>
+                    </px-tabs>
+
+                    <div class="notification-view--maximal--body--content--view">
+                        <iron-pages class="notification-view--maximal--body--content--view--view" selected="{{selected}}">
+                            <!-- INTERPRETATION -->
+                            <div class="tabs-subtabs">
+                                <div class="tabs-subtab-1">
+                                    <ul>
+                                        <li>
+                                            <label>Category</label>
+                                            <p>
+                                                <strong>Production</strong>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <label>Likelihood</label>
+                                            <p>
+                                                <strong>Highly Likely</strong>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <label>Urgency</label>
+                                            <p>
+                                                <strong>High</strong>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <label>Symptoms</label>
+                                            <p>Multiple Diesel generator failure impacting the ESP wells. No backup generators
+                                                available in inventory.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <label>Diagnosis</label>
+                                            <p>
+                                                <strong>Yasser (Salam Field Manager):</strong> We’ve lost power on a number of ESP
+                                                wells, the diesel generators have failed again. Check inventory for back
+                                                up and contact supplier immediately.
+                                                <br/>
+                                                <br/>
+                                                <strong>Abdalla (Khalda Inventory):</strong> Unfortunately we dont have any generators
+                                                left in the inventory, they were all used up in Kalabasha.
+                                                <br/>
+                                                <br/>
+                                                <strong>Yasser (Salam Field Manager):</strong> Production will drop significantly
+                                                until those wells are back online. We will run MWO on the other wells to
+                                                optimize.
+                                                <br/>
+                                                <br/>
+                                                <strong>Ahmed S (EGPC):</strong> We asked Bapetco to optimize Bed 3 to compensate.
+                                                We might experience a slight drop in WD Production.
+                                                <br/>
+                                                <br/>
+                                                <strong>Hussein (APC):</strong> We will also optimize our process and plan ahead
+                                                for reduced feedstock.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <label>Recommendation</label>
+                                            <p>
+                                                Run Multi Well Optimization on Salam and on Bed 2 and Bed 3. APC to run Process Optimization to optimize its CDU2
+                                                output with the estimated reduced feedstock.
+                                            </p>
+                                            <p><a href="https://multiwellesp.na03.bhge.com/GIS.html" target="_blank">Run MWO on Salam</a></p>
+                                            <p style="color: #007acc; cursor: pointer;" on-tap="_openMWOmodal">Run MWO on Bed 3</p>
+                                        </li>
+
+                                        <!-- <li class$="finish-wrap {{finished}}">
+                                            <p>
+                                                <strong>Frank</strong>
+                                                (Process Engineer): I recommend the following actions:</p>
+                                            <table>
+                                                <thead>
+                                                    <tr class="border-head">
+                                                        <th>Actions</th>
+                                                        <th class="center-text">Margin Improvement over 60 days</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="border-body">
+                                                        <td>
+                                                            <strong>WGC Cleaning</strong>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="border-body">
+                                                        <td>
+                                                            <strong>FCC Optimization</strong>
+                                                        </td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="border-body">
+                                                        <td>
+                                                            <strong>Total</strong>
+                                                        </td>
+                                                        <td class="center-text">
+                                                            <strong>$1.533M</strong>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </li> -->
+                                    </ul>
+                                </div>
+
+                                <div class="tabs-subtab-2 notification-view--maximal--body--content--view--info">
+                                    <ul>
+                                        <li>
+                                            <ul>
+                                                <template is="dom-repeat" items="{{contributors}}">
+                                                    <li class="profile-style">
+                                                        <div class="img-container">
+                                                            <img src="../../../resources/[[item.img]].svg" alt="[[item.name]]" />
+                                                        </div>
+                                                        <div>
+                                                            <label>[[item.unit]]</label>
+                                                            <p>[[item.name]]</p>
+                                                        </div>
+                                                    </li>
+                                                </template>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <label>Date of occurrence</label>
+                                            <br/>
+                                            <p>{{createdDate}}</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- CLOSURE -->
+                            <div>CLOSURE CONTENT</div>
+                            <!-- ACTIONS -->
+                            <div>ACTIONS CONTENT</div>
+                            <!-- ANALYSIS -->
+                            <div>ANALYSIS CONTENT</div>
+                            <!-- EVIDENCE -->
+                            <div>EVIDENCE CONTENT</div>
+                            <!-- NOTES -->
+                            <div>NOTES CONTENT</div>
+                            <!-- SIMILAR CASES -->
+                            <div>
+                                <p>
+                                    No cases have been Marked for Reference. Please search for Similar Cases below Find cases with Similar alert evidence at
+                                    this site on this asset Ok
+                                </p>
+                            </div>
+                            <!-- MAINTENANCE -->
+                            <div>
+                                <p>Information for asset 00000000000001057428</p>
+                                <br/>
+                                <br/>
+                                <p>
+                                    Equipment Strategy Overview Create Work Order
+                                </p>
+                                <p>
+                                    Recommendation Description Status Created Closed + Click + to add recommendations
+                                </p>
+                                <p>
+                                    Work Orders for Case 10009 Recommendation Description Status Created Closed + No Work Order Data Available
+                                </p>
+                            </div>
+                        </iron-pages>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <script src="../../bower_components/moment/min/moment.min.js"></script>
+    <script src="notification-view.es5.js"></script>
+</dom-module>
